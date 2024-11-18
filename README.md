@@ -32,7 +32,7 @@ A React-based authentication application with user registration and login functi
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone JomonTJose/UserAccessUI
 ```
 
 2. Install dependencies:
