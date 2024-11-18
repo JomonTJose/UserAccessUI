@@ -4,7 +4,7 @@ import Register from './component/Register';
 import Home from './component/Home';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
+export const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const userToken = localStorage.getItem('userToken');
   
   if (!userToken) {

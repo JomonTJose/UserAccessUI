@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" data-testid="home-container">
       <Box
         sx={{
           minHeight: "100vh",
@@ -55,6 +55,7 @@ export default function Home() {
                 fontWeight: "bold",
                 color: "primary.main" 
               }}
+              data-testid="home-title"
             >
               Welcome to the Application
             </Typography>
