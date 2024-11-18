@@ -43,7 +43,7 @@ yarn install
 
 3. Add environment variables:
 ```bash
-REACT_APP_BACKEND_URL=http://localhost:3000
+REACT_APP_BACKEND_URL=http://localhost:3009
 ```
 
 4. Start the development server:
